@@ -13,6 +13,7 @@ struct BuildInfo {
         Bundle.main.object(forInfoDictionaryKey: "GitBranch") as? String
         ?? "Unknown"
     }()
+    
 
     static let gitCommit: String = {
         Bundle.main.object(forInfoDictionaryKey: "GitCommit") as? String
